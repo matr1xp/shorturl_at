@@ -27,7 +27,7 @@ Or install it yourself as:
 ```ruby
 ShorturlAt.shorten("http://your.long.url/to/shorten")     # will return ~ http://shorturl.at/xxYYnn
 
-ShorturlAt.shorten("http://another.long.url/to/shorten")  # will return ~ https://tinyurl.com/zznnXX
+ShorturlAt.shorten("http://another.long.url/to/shorten", "tinyurl")  # will return ~ https://tinyurl.com/zznnXX
 ```
 
 ## Development
