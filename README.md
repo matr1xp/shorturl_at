@@ -1,6 +1,10 @@
 # ShorturlAt
 
-A simple Ruby gem that uses the URL shortener service at https://www.shorturl.at/
+A simple Ruby gem that uses the URL shortener service.
+Supports the following services:
+
+1. shorturl.at (default)
+2. tinyurl.com ('tinyurl')
 
 ## Installation
 
@@ -20,8 +24,10 @@ Or install it yourself as:
 
 ## Usage
 
-```
-ShorturlAt.shorten("http://your.long.url/to/shorten")
+```ruby
+ShorturlAt.shorten("http://your.long.url/to/shorten")     # will return ~ http://shorturl.at/xxYYnn
+
+ShorturlAt.shorten("http://another.long.url/to/shorten")  # will return ~ https://tinyurl.com/zznnXX
 ```
 
 ## Development

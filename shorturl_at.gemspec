@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Marlon Santos"]
   spec.email         = ["marlonsantos.au@gmail.com"]
 
-  spec.summary       = %q{A simple long URL shortener that uses http://www.shorturl.at/ service.}
-  spec.description   = %q{Shorten your URLs with this simple url shortener built with Ruby.}
+  spec.summary       = %q{A simple long URL shortener.}
+  spec.description   = %q{Shorten your URLs with this simple url shortener written in Ruby.}
   spec.homepage      = "http://github.com/matr1xp/shorturl_at"
   spec.license       = "MIT"
 
